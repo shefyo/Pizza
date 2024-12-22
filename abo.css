@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding: 0;
+  }
+* {
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+}
+.nav-bar {
+    height:14%;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    background-color: black;
+}
+.nav-bar img {
+    position:absolute;
+    width:110px;
+    height:110px;
+}
+.nav-bar a {
+    font-family:'Nunito', sans-serif;
+    font-weight: 800;
+    font-size:45px;
+    color:rgb(255, 255, 255);
+    padding-top:1.5%;
+    top:0;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+#glav {
+    position:absolute;
+    margin-left:20%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#glav:hover {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+#pizza {
+    position:absolute;
+    margin-left:38%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#pizza:hover {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+#za {
+    position:absolute;
+    margin-left:53%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#za:hover {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+#zakuski {
+    position:absolute;
+    margin-left:70%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#zakuski:hover {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+#aboutus {
+    position:absolute;
+    margin-left:88%;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+#aboutus:hover {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+}
+body {
+    background-color: #CC2229;
+}
+#nu {
+    position:absolute;
+    margin-left: 4%;
+    font-size:100px;
+    color:white;
+    padding-top:8%;
+    animation: bb 1s forwards;
+}
+@keyframes bb {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+#us {
+    position:absolute;
+    margin-left: 4%;
+    font-size:45px;
+    color:white;
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+    padding-top:18%;
+    animation: bb 1.5s forwards;
+}
+a:hover {
+    color: #90C543;
+}
+#on {
+    position:absolute;
+    margin-left: 63%;
+    margin-top: 9%;
+    width:530px;
+    height: 730px;
+    animation: bb 1s forwards;
+}
+#det {
+    position:absolute;
+    margin-left: 3%;
+    font-size:90px;
+    color:white;
+    padding-top:60%;
+    animation: bb 1s forwards;
+}
+#lu {
+    position:absolute;
+    margin-left: 3%;
+    font-size:45px;
+    color:white;
+    padding-top:77%;
+    animation: bb 1.5s forwards;
+}
+#no {
+    position:absolute;
+    margin-left: 62%;
+    margin-top: 88%;
+    width:500px;
+    height: 500px;
+    animation: bb 1s forwards;
+}
+.num h1 {
+    position:absolute;
+    margin-left: 3%;
+    font-size:90px;
+    color:white;
+    padding-top:140%;
+    animation: bb 1s forwards;
+}
+.num h3 {
+    position:absolute;
+    margin-left: 3%;
+    font-size:45px;
+    color:white;
+    padding-top:157%;
+    animation: bb 1.5s forwards;
+}
+.num img {
+    position:absolute;
+    margin-left: 64%;
+    margin-top: 170%;
+    width:480px;
+    height: 480px;
+    animation: bb 1s forwards;
+}
